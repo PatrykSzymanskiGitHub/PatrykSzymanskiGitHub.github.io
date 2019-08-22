@@ -168,6 +168,7 @@ footer {
 .anim-typewriter {
   animation: typewriter 0.8s steps(7) 1s 1 normal both, blinkTextCursor;
 }
+
 @keyframes typewriter {
   from {
     width: 0;
@@ -177,7 +178,6 @@ footer {
   }
 }
 
-@media (hover: hover) {
   a:hover {
     color: #ffd600;
   }
@@ -200,7 +200,6 @@ footer {
     background-color: #ffd600;
     text-decoration: underline;
   }
-}
 
 @media (min-width: 1200px) {
   header {
