@@ -227,7 +227,7 @@ footer {
 
   #datafeedwatch_link {
     font-size: 21px;
-    color: #ffd600;
+    color: #ffd600 !important;
   }
 
   .anim-typewriter {
