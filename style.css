@@ -77,13 +77,14 @@ p {
 h1 {
   font-weight: 800;
   font-size: 2.313em;
-  margin-bottom: 45px;
+  margin-bottom: 50px;
   line-height: 33px;
 }
 
 .anim-typewriter {
   font-size: 270%;
   line-height: 85%;
+  margin-bottom: 30px;
 }
 
 h2 {
@@ -282,5 +283,17 @@ footer {
   .card_container {
     flex-direction: row-reverse;
     justify-content: space-between;
+  }
+
+  .about_me_p1 {
+    padding-right: 50px;
+  }
+
+  .about_me_p2 {
+    padding-left: 50px;
+  }
+
+  footer {
+    margin-top: 100px;
   }
 }
