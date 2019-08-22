@@ -21,6 +21,34 @@ a {
   font-size: 18px;
 }
 
+#datafeedwatch_link {
+  color: #ffd600;
+}
+
+a:hover {
+  color: #ffd600;
+}
+
+.navbar-nav li:hover {
+  text-decoration: underline;
+}
+
+.card_a:hover {
+  text-decoration: none;
+}
+
+.footer_links li a:hover {
+  color: white;
+}
+
+.btn-outline-primary-light:hover {
+  border-color: white;
+  color: white;
+  background-color: #ffd600;
+  text-decoration: underline;
+}
+
+
 .card_container {
   display: flex;
   padding: 15px;
@@ -178,29 +206,6 @@ footer {
   }
 }
 
-  a:hover {
-    color: #ffd600;
-  }
-
-  .navbar-nav li:hover {
-    text-decoration: underline;
-  }
-
-  .card_a:hover {
-    text-decoration: none;
-  }
-
-  .footer_links li a:hover {
-    color: white;
-  }
-
-  .btn-outline-primary-light:hover {
-    border-color: white;
-    color: white;
-    background-color: #ffd600;
-    text-decoration: underline;
-  }
-
 @media (min-width: 1200px) {
   header {
     margin-top: 96px;
@@ -222,11 +227,6 @@ footer {
 
   a {
     font-size: 21px;
-  }
-
-  #datafeedwatch_link {
-    font-size: 21px;
-    color: #ffd600 !important;
   }
 
   .anim-typewriter {
