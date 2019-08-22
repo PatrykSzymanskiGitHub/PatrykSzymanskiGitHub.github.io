@@ -140,11 +140,11 @@ footer {
 }
 
 #copyright {
-  font-size: 12px;
+  font-size: 14px;
   color: #1a1a1a;
   height: 23px;
   margin-top: 30px;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
 }
 
 .my_work,
@@ -254,9 +254,6 @@ footer {
     margin-bottom: 20px;
   }
 
-  #copyright {
-    font-size: 16px;
-  }
   .btn-outline-primary-light {
     font-size: 21px;
   }
@@ -295,5 +292,9 @@ footer {
 
   footer {
     margin-top: 100px;
+  }
+
+  #copyright {
+    font-size: 18px;
   }
 }
